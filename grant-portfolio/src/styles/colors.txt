@@ -1,0 +1,6 @@
+/* CSS HEX */
+--raisin-black: #28262cff;
+--tropical-indigo: #998fc7ff;
+--periwinkle: #d4c2fcff;
+--magnolia: #f9f5ffff;
+--resolution-blue: #14248aff;
