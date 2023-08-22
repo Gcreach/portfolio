@@ -1,0 +1,28 @@
+:root {
+    --dark: #28262cff;
+    --purple:  #998fc7ff;
+    --light: #f9f5ffff;
+    --blue: #14248aff;
+}
+
+html, body {
+    min-height: 200;
+}
+
+.wrapper {
+    background-color: var(--dark);
+    color: var(--light);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    min-height: 200vh;
+    font-family: 'Cabin', sans-serif;
+}
+
+main {
+    min-height: calc(10vh - 250px);
+}
+
+a{
+    color: var(--purple);
+}

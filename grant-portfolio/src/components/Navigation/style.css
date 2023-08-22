@@ -1,0 +1,7 @@
+header .nav-link {
+    color: var(--light);
+}
+
+header .nav-link:hover {
+    color: var(--blue);
+}
