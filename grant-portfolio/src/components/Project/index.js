@@ -1,17 +1,20 @@
 import React from "react";
 import { motion } from "framer-motion";
+import "./style.css";
 
 const Project = ({project}) => {
     return <div className="col">
-        <div class="card">
+        <div className="card">
  <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }} />
   <img src={require(`../../assets/projects/${project.name}.JPG`)} class="card-img" alt={project.name}/>
-  <div class="card-img-overlay">
-    <h4 class="card-title">
+  <div className="card-img-overlay">
+    <h4 className="card-title">
         <a href={project.link} className="card-text">{project.name}</a>
-        <a href={project.repo} className="card-text" ><i className="fab fa-github"></i></a>
     </h4>
-    <p class="card-text">{project.description}</p>
+    <div className="description">
+    <p className="card-text">{project.description}</p>
+    <a href={project.repo} className="card-text" >Repo</a>
+    </div>
   </div>
 </div>
     </div>

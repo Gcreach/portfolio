@@ -12,7 +12,7 @@ const Contact = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
        console.log(formState);
-       emailjs.sendForm('service_35tzt03', 'template_z0vgj2l', form.current, 'SqyTPjYVmS9eZuwpM')
+       emailjs.sendForm('service_35tzt03', 'template_z0vgj2', form.current, 'SqyTPjYVmS9eZuwpM')
       .then((result) => {
           console.log(result.text);
       }, (error) => {

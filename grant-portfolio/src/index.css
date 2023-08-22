@@ -21,6 +21,7 @@ html, body {
 
 main {
     min-height: calc(10vh - 250px);
+    padding: 100px;
 }
 
 a{

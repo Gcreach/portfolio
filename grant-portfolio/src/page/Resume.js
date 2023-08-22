@@ -3,8 +3,9 @@ import React from "react";
 const Resume = () => {
     return <div className="skills">
         <p>
-            Download my resume <a href="https://drive.google.com/file/d">here</a>
-        </p>
+            Download my resume <a href="https://docs.google.com/document/d/13XY4HQyZXNsboLIHTUh_Lm3wYXJdUiT2Yk35m76qWVA/edit?usp=sharing">here</a>
+
+      </p>
         <div className="row mt-4">
             <div className="col col-md-6 align-items-center d-flex mb-4"></div>
             <h3>Fullstack web development skills</h3>
